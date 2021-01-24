@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap" rel="stylesheet">   
+<link rel="stylesheet" href="style.css">
+    <title>Author's Abode</title>
+</head>
+<body>
+    <section id="banner">
+        <!--<img src="images/talha1.png" class="logo"> -->
+        <div class="banner-text">
+            <h1>Authors Abode</h1>
+            <p>Write your essays and articles</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>Hire Us</a>
+                <a href="#"><span></span>Read More</a>
+            </div>
+        </div>
+    </section>
+    <div id="sideNav">
+        <nav>
+            <ul>
+               <li><a href="#">Home</a></li> 
+               <li><a href="#">FEATURES</a></li> 
+               <li><a href="#">SERVICES</a></li> 
+               <li><a href="#">TESTIMONY</a></li> 
+               <li><a href="#">FIND ME</a></li> 
+            </ul>
+        </nav>             
+    </div>
+    <div id="manuBtn">
+        <img src="images/100.png">
+    </div>
+
+    <section id = "feature">
+        <div class="title-text">
+            <p>Features</p>
+            <h1>Why choose us</h1>
+        </div>
+        <div class="feature-box">
+            <div class="feature">
+                <h1>Experienced writers!</h1>
+            </div>
+            <div class="feature-img">
+                <img src="images/adrews.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script>
+        var manuBtn = document.getElementById("manuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        sideNav.style.right = "-250px"
+        manuBtn.onclick = function(){
+            if (sideNav.style.right == '-250px'){
+                sideNav.style.right = "0"
+            }
+           else {
+             sideNav.style.right = "-250px";
+            }
+
+        }
+        </script>
+
+</body>
+</html>
